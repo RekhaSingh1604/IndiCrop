@@ -1,11 +1,11 @@
 import React, {
   useState,
-  useEffect
+  // useEffect
 } from "react";
 
 import {
   useNavigate,
-  useLocation,
+  // useLocation,
   Link
 } from "react-router-dom";
 
@@ -13,7 +13,7 @@ function Login() {
 
   const navigate = useNavigate();
 
-  const location = useLocation();
+  // const location = useLocation();
 
   const [email, setEmail] =
     useState("");
